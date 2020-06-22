@@ -1,5 +1,5 @@
 ---
-- hosts: database
+- hosts: localhost
   become: yes
   vars_files:
     - vars/main.yml
