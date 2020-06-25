@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: centos_remote_a
   become: yes
   vars_files:
     - vars/main.yml
